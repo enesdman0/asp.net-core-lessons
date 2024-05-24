@@ -28,3 +28,4 @@ C:\Users\root\Desktop\ASP.NET-CORE-Dersleri\Basics\obj\Debug\net7.0\refint\Basic
 C:\Users\root\Desktop\ASP.NET-CORE-Dersleri\Basics\obj\Debug\net7.0\Basics.pdb
 C:\Users\root\Desktop\ASP.NET-CORE-Dersleri\Basics\obj\Debug\net7.0\Basics.genruntimeconfig.cache
 C:\Users\root\Desktop\ASP.NET-CORE-Dersleri\Basics\obj\Debug\net7.0\ref\Basics.dll
+C:\Users\root\Desktop\ASP.NET-CORE-Dersleri\Basics\obj\Debug\net7.0\Basics.sourcelink.json
