@@ -1,0 +1,23 @@
+@{
+ViewBag.Title = "Başvuru Detayı";
+}
+@{
+var className=@Model.WillAttend == true ? "success" : "danger";
+}
+<main class="text-center">
+    <div class=" my-2">
+        <p class="badge text-bg-@className">
+            @if(Model.WillAttend==true){
+            <span>Katılıyor</span>
+            }else{
+            <span>Katılmıyor</span>
+            }
+        </p>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">İsim: @Model.Name</li>
+            <li class="list-group-item">Email: @Model.Email</li>
+            <li class="list-group-item">Telefon: @Model.Phone</li>
+        </ul>
+    </div>
+    <a asp-controller="Meeting" asp-action="List" class="btn btn-outline-@className">Katılımcı listesi</a>
+</main>

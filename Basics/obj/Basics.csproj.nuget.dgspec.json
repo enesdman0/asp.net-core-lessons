@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\root\\Desktop\\ASP.NET-CORE-Dersleri\\Basics\\Basics.csproj": {}
+    "C:\\Users\\root\\Desktop\\ASP.NET-Core-Dersleri\\Basics\\Basics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\root\\Desktop\\ASP.NET-CORE-Dersleri\\Basics\\Basics.csproj": {
+    "C:\\Users\\root\\Desktop\\ASP.NET-Core-Dersleri\\Basics\\Basics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\root\\Desktop\\ASP.NET-CORE-Dersleri\\Basics\\Basics.csproj",
+        "projectUniqueName": "C:\\Users\\root\\Desktop\\ASP.NET-Core-Dersleri\\Basics\\Basics.csproj",
         "projectName": "Basics",
-        "projectPath": "C:\\Users\\root\\Desktop\\ASP.NET-CORE-Dersleri\\Basics\\Basics.csproj",
+        "projectPath": "C:\\Users\\root\\Desktop\\ASP.NET-Core-Dersleri\\Basics\\Basics.csproj",
         "packagesPath": "C:\\Users\\root\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\root\\Desktop\\ASP.NET-CORE-Dersleri\\Basics\\obj\\",
+        "outputPath": "C:\\Users\\root\\Desktop\\ASP.NET-Core-Dersleri\\Basics\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\root\\AppData\\Roaming\\NuGet\\NuGet.Config",
