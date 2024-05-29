@@ -48,7 +48,7 @@ namespace Basics.Models
         public static List<Course> Courses
         {
             get
-            {
+            {   
                 return _courses;
             }
         }

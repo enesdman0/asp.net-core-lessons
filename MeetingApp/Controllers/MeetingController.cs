@@ -20,7 +20,6 @@ namespace MeetingApp.Controllers
         {
             if (ModelState.IsValid)
             {
-
                 Repository.CreateUser(model);
                 ViewBag.UserCount = Repository.Users.Where(info => info.WillAttend == true).Count();
                 return View("Thanks", model);

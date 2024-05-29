@@ -1,0 +1,46 @@
+﻿@model ProductViewModel
+
+<div class="card card-body my-3">
+    <form asp-action="Index" method="get">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-11">
+                    <select class="form-select" asp-items="@(new SelectList(Model.Categories, "CategoryId", "Name", Model.SelectedCategory))" name="category" id="">
+                        <option value="0">Hepsi</option>
+                    </select>
+                </div>
+                <div class="col-md-1">
+                    <button type="submit" class="btn btn-primary">Filtrele</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th style="width: 100px;">@Html.DisplayNameFor(m => m.Products[0].ProductId)</th>
+            <th style="width: 100px;">@Html.DisplayNameFor(m => m.Products[0].Image)</th>
+            <th>@Html.DisplayNameFor(m => m.Products[0].Name)</th>
+            <th style="width: 100px;">@Html.DisplayNameFor(m => m.Products[0].Price)</th>
+            <th style="width: 130px;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var product in @Model.Products)
+        {
+        <tr>
+            <td>@product.ProductId</td>
+            <td><img src="~/img/@product.Image" class="max-width"></td>
+            <td>@product.Name</td>
+            <td>@product.Price</td>
+            <td>
+                <a asp-controller="Home" asp-action="Edit" asp-route-id="@product.ProductId"
+                    class="btn btn-sm btn-primary">Edit</a>
+                <a asp-controller="Home" asp-action="Delete" asp-route-id="@product.ProductId"
+                    class="btn btn-sm btn-danger">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
